@@ -59,7 +59,13 @@ Find and correct the issue to execute deployment.
 
 
 ## *Errors & Corrections*: 
-- After intial deployment of the application, the environment health shows "degraded". 
+- After intial deployment of the application, the environment health shows "degraded".
+  
+
+![Screenshot 2023-08-16 214125](https://github.com/atlas-lion91/Deployment1.1/assets/140761974/40e7c04d-07d1-47a6-9566-28dd04d8e730)
+
+
+  
 - Observed the ElasticBeanstalk logs, and located the error [ModuleNotFoundError: No module named 'application']  in the /var/log/web.stdout.log section.
 
 
