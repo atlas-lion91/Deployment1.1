@@ -9,6 +9,8 @@ Demonstrate your ability to run a Jenkins build and manually deploy to Elastic B
 Once you deploy, your deployment to elastic beanstalk will fail or you will see a degraded health status.
 Find and correct the issue to execute deployment.
 
+
+
 ## Documentation:
 
 ### Download Application Files:
