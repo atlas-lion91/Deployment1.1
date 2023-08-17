@@ -11,18 +11,18 @@ Find and correct the issue to execute deployment.
 
 ## Documentation:
 
-### 1. Download Application Files:
+### Download Application Files:
 
 1. Download the zipped application files from the instructor's GitHub repository.
 2. Extract the downloaded zip file to your local directory.
 
-### 2. Setup New GitHub Repository:
+### Setup New GitHub Repository:
 
 1. Create a new GitHub repository to host the application.
 2. Upload the application files to the new repository.
 3. Do not upload the parent folder, instead compress all application files within parent folder.
 
-### 3. Setup Jenkins Pipeline:
+### Setup Jenkins Pipeline:
 
 1. Log in to the instructor-provided Jenkins Server.
 2. Create a new Jenkins build pipeline for the application.
@@ -30,19 +30,19 @@ Find and correct the issue to execute deployment.
 4. Run the Jenkins pipeline Build.
 5. Test the Jenkins build to ensure successful execution.
 
-### 4. Create the Application Source Bundle:
+### Create the Application Source Bundle:
 
 - Select the application files in your local directory and compress them into a Zip folder.
 - This creates a source bundle that will be used for deployment on AWS Elastic Beanstalk.
 
-### 5. Create IAM Roles & Permissions:
+### Create IAM Roles & Permissions:
 
 1. Log in to your AWS Management Console.
 2. Create new IAM Roles for your environment
 3. Setup permissions to allow the application to interact with AWS services.
 4. Assign these permissions to the applicable IAM roles.
 
-### 6. Setup and Execute Manual Application Deployment on Elastic Beanstalk:
+### Setup and Execute Manual Application Deployment on Elastic Beanstalk:
 
 1. Log in to your AWS Management Console.
 2. Navigate to AWS Elastic Beanstalk.
