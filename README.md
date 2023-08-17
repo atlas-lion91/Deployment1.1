@@ -53,10 +53,22 @@ Find and correct the issue to execute deployment.
 5. Monitor the process and ensure the application properly executes.
  
 
+![Screenshot 2023-08-16 221846](https://github.com/atlas-lion91/Deployment1.1/assets/140761974/56b2e06e-1981-471d-b0a1-3ddf9347077d)
+
+
+
 
 ## *Errors & Corrections*: 
 - After intial deployment of the application, the environment health shows "degraded". 
 - Observed the ElasticBeanstalk logs, and located the error [ModuleNotFoundError: No module named 'application']  in the /var/log/web.stdout.log section.
+
+
+![Deployment 1 1 Elastic Beanstalk Logs](https://github.com/atlas-lion91/Deployment1.1/assets/140761974/8fb2f654-b1aa-42ea-b737-1e3c2357f182)
+
+
 - Re-Named the app.py file "application.py".
 - Re-Uploaded the application to Elastic Beanstalk with the renamed application.py file.
 - The Environment health status read "OK" and the application deployed successfully.
+
+
+![Deployment 1 1 confirmation](https://github.com/atlas-lion91/Deployment1.1/assets/140761974/2b2066a4-96d6-4319-9280-5f969c4938c6)
